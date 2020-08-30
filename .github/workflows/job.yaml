@@ -1,5 +1,5 @@
-name: "CI"
-on: ["push", "pull-request"]
+name: CI
+on: [push, pull-request]
 job: 
     build: 
         run-on: ubuntu-latest
