@@ -3,6 +3,6 @@ on: [push, pull_request]
 jobs: 
     build: 
         run-on: ubuntu-latest
-    steps:
-        -user: actions/checkout@v2
-        -run: docker exec backend-desafio-5 npm run test
+        steps:
+            - user: actions/checkout@v2
+            - run: docker exec backend-desafio-5 npm run test
