@@ -1,6 +1,6 @@
 name: CI
 on: [push, pull_request]
-job: 
+jobs: 
     build: 
         run-on: ubuntu-latest
     steps:
